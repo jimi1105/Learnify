@@ -84,45 +84,45 @@ Learnify/
 │   ├── Section.js                     
 │   └── Subsection.js                 
 │                              
-├── mail/                         
-│   └── templates/                
-│       ├── contactFormRes.js
-│       ├── courseEnrollmentEmail.js
-│       ├── emailVerificationTemplate.js
-│       ├── passwordUpdate.js
-│       └── paymentSuccessEmail.js
-│
-├── middlewares/
-│   └── auth.js
-│
-├── models/
-│   ├── Category.js
-│   ├── Course.js
-│   ├── CourseProgress.js
-│   ├── OTP.js
-│   ├── Profile.js
-│   ├── RatingAndReview.js
-│   ├── Section.js
-│   ├── SubSection.js
-│   └── User.js
-│
-├── routes/
-│   ├── Contact.js
-│   ├── Course.js
-│   ├── Payments.js
-│   ├── profile.js
-│   └── user.js
-│
-├── utils/
-│   ├── imageUploader.js
-│   ├── mailSender.js
-│   └── secToDuration.js
-│
-├── .env
-├── package.json
-├── README.md
-└── server.js
-
+├── mail/                                      
+│   └── templates/                      
+│       ├── contactFormRes.js                
+│       ├── courseEnrollmentEmail.js           
+│       ├── emailVerificationTemplate.js            
+│       ├── passwordUpdate.js               
+│       └── paymentSuccessEmail.js             
+│               
+├── middlewares/           
+│   └── auth.js            
+│                         
+├── models/                 
+│   ├── Category.js              
+│   ├── Course.js               
+│   ├── CourseProgress.js             
+│   ├── OTP.js           
+│   ├── Profile.js              
+│   ├── RatingAndReview.js             
+│   ├── Section.js              
+│   ├── SubSection.js              
+│   └── User.js             
+│            
+├── routes/          
+│   ├── Contact.js       
+│   ├── Course.js        
+│   ├── Payments.js      
+│   ├── profile.js     
+│   └── user.js       
+│           
+├── utils/            
+│   ├── imageUploader.js          
+│   ├── mailSender.js           
+│   └── secToDuration.js        
+│          
+├── .env                
+├── package.json        
+├── README.md         
+└── server.js       
+      
 ## API Endpoints
 
 ### Authentication
