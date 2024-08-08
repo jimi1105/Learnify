@@ -1,7 +1,5 @@
 # Learnify
 
-# Online Education Platform
-
 ## Overview
 
 This project is an online education platform that enables course creation and management, student enrollment, progress tracking, ratings and reviews, and email notifications. It is built using Node.js, Express.js, and MongoDB.
@@ -66,28 +64,28 @@ This project is an online education platform that enables course creation and ma
 
 ## Project Structure
 
-Learnify/
-│
-├── config/
-│   ├── cloudinary.js
-│   ├── database.js
-│   └── razorpay.js
-│
-├── controllers/
-│   ├── Auth.js
-│   ├── Category.js
-│   ├── ContactUs.js
-│   ├── Course.js
-│   ├── courseProgress.js
-│   ├── payments.js
-│   ├── profile.js
-│   ├── RatingandReview.js
-│   ├── ResetPassword.js
-│   ├── Section.js
-│   └── Subsection.js
-│
-├── mail/
-│   └── templates/
+Learnify/                                         
+│                 
+├── config/               
+│   ├── cloudinary.js              
+│   ├── database.js              
+│   └── razorpay.js              
+│                
+├── controllers/                
+│   ├── Auth.js          
+│   ├── Category.js                    
+│   ├── ContactUs.js                      
+│   ├── Course.js              
+│   ├── courseProgress.js                
+│   ├── payments.js                  
+│   ├── profile.js                           
+│   ├── RatingandReview.js                 
+│   ├── ResetPassword.js                
+│   ├── Section.js                     
+│   └── Subsection.js                 
+│                              
+├── mail/                         
+│   └── templates/                
 │       ├── contactFormRes.js
 │       ├── courseEnrollmentEmail.js
 │       ├── emailVerificationTemplate.js
